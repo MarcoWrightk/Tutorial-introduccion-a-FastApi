@@ -1,0 +1,12 @@
+la estructura seria asi:
+
+project/
+│── main.py                # Archivo principal para ejecutar la aplicación FastAPI
+│── models.py              # Definiciones de los modelos de datos (Pydantic)
+│── routes/                # Carpeta para manejar las rutas de la API
+│    ├── users.py         # Rutas para manejar usuarios
+│    ├── products.py      # Rutas para manejar productos
+│── database.py            # Configuración y conexiones a la base de datos
+│── requirements.txt       # Dependencias del proyecto
+│── config.py              # Configuraciones globales (como claves de API, etc.)
+│── README.md              # Documentación del proyecto
